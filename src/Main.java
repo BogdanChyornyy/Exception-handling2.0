@@ -1,6 +1,8 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        DevideByZeroException();
+        /*DevideByZeroException();
         ArrayIndexOutOfBoundsException();
         NegativeArraySizeException(5,-4);
 
@@ -14,7 +16,11 @@ public class Main {
 
         SecondLesson.FirstTask();
         SecondLesson.SecondTask();
-        SecondLesson.FourthTask();
+        SecondLesson.FourthTask();*/
+
+        while (true){
+            ThirdLesson.Launcher();
+        }
     }
     // 1.1) Реализуйте 3 метода, чтобы в каждом из них получить разные исключения.
     public static void  DevideByZeroException(){
